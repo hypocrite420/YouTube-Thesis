@@ -1,0 +1,46 @@
+\documentclass[twoside]{report}
+\usepackage[utf8]{inputenc}
+
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{lipsum}
+
+\newgeometry{
+    top=0.75in,
+    bottom=0.75in,
+    outer=0.75in,
+    inner=1.5in,
+}
+
+\title{YouTube Thesis \\
+{\Large University of YouTube}}
+\author{Tanbir Hassan }
+\date{December 2022}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+Let's ee how is it looking
+
+\chapter*{Dedication}
+To my sleep
+
+\chapter*{Acknowledgements}
+I want to thank ..
+
+\tableofcontents
+\listoffigures
+
+\include{ch-YouTubeButton.tex}
+\include{ch-Subscribers.tex}
+\include{chl-lipsum.tex}
+\include{Conclusions.tex}
+
+\appendix 
+\include{Appendix.tex}
+\bibliographystyle{plain}
+\bibliography{ref}
+
+\end{document}
